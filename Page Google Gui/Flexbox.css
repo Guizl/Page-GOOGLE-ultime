@@ -1,0 +1,272 @@
+body
+{
+	font-family: arial,sans-serif;
+	font-size: 13px;
+}
+  
+.nav 
+{
+	display: flex;
+	flex-flow: wrap row ;
+	justify-content: space-between;
+}
+  
+.left
+{
+	height: 50px;
+	min-width: 0px;
+}
+  
+.right 
+{
+	display: flex;
+	flex-flow: wrap row ;
+	justify-content: space-between;
+	height: 50px;
+	min-width: 200px;
+}
+
+#gmail, #images, #connexion, #menu, #conso, #confi, #cond, #param, #pub, #entreprise, #propos, #fonctionnement, #france
+{
+    height: 40px;
+    min-width: 50px;
+    text-align: center;
+    line-height:40px;
+    padding: 7px;
+}
+
+#menu
+{
+    min-width: 40px;
+    display: inline-block;
+    line-height: 54px;
+}
+
+a
+{
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+a:visited
+{
+    text-decoration:none;
+}
+  
+a:hover, a:active 
+{
+    text-decoration:underline;
+}
+
+#google
+{
+    text-align: center;
+    height:15%;
+    margin-top:10%
+}
+
+#imput_box
+{
+    text-align: center;
+    margin: 2% 0% 2% 0%;
+}
+
+#imput
+{
+    border: solid 0.5px rgba(0,0,0,.1);
+    padding: 1% 12% 1% 12%;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+#imput:hover
+{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.14);
+}
+
+#imput:focus 
+{
+  outline: none;
+  border: 1px solid  rgb(199, 197, 197);
+}
+
+#mic
+{
+    text-align: right;
+    vertical-align: middle;
+    margin-left:-2.7%; 
+}
+
+#connexion_button
+{
+    background-color: #4285f4;
+    color: #ffffff;
+    border: 1px solid #4285f4;
+    padding: 10px 15px 10px 15px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+#blank
+{
+    background-color: #361212;
+    margin: 1% .5% 1% .5%;
+}
+
+#recherche, #lucky
+{
+    background-color: #f2f2f2;
+    color: #5F6368;
+    border: 1px solid #f2f2f2;
+    padding: 10px 2% 10px 2%;
+    border-radius: 2px;
+    font-size: 14px;
+    margin: 0% 5% 0% 5%;
+    width: 175px;
+}
+
+#recherche:hover, #lucky:hover 
+{
+  color: rgb(34, 34, 34);
+  border: 1px solid #b8b8b8;
+  font-weight: none;
+  box-shadow: 0px 10px 1px rgba (198, 198, 198 .5);
+}
+
+#recherche:active, #lucky:active 
+{
+  border: 1px solid #4885ed;
+  outline: none;  
+}
+
+#recherche:focus, #lucky:focus 
+{
+  border: 1px solid #4885ed;
+  outline: none;
+}  
+
+#button
+{
+    display: flex;
+    flex-flow: wrap row ;
+    justify-content: center;
+}
+
+.footer
+{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px; 
+    width: 100%;
+    border: -5% 0% -5% 0%;
+    background-color:#f2f2f2;
+    border-top:solid 0.5px rgba(0,0,0,0.4);
+}
+
+#footer1
+{
+    margin-top: 0;
+    margin-left: 2%;
+    display: flex;
+    flex-flow: wrap row ;
+    justify-content: flex-start;
+}
+  
+ #footer2
+{
+    display: grid;
+    grid-template-columns: 125px 100px 100px 350px 1fr 200px 100px 100px 125px;
+    border-top:solid 0.5px rgba(0,0,0,0.4);
+}
+
+
+
+
+<!-- Ancien code -->
+
+
+#Nav
+{
+    display: flex;
+    flex-direction: row;
+	justify-content: flex-end;
+    border: 2px solid red;
+}
+
+.Menu
+{
+	padding: 10px  
+}
+
+#Section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	border: 2px solid blue;
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+
+#Sous-section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+	border: 2px solid blue;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#Footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	border: 2px solid yellow;
+	background: grey
+}
+
+#Head
+{
+display: flex;
+align-items: flex-start;
+border: 1px solid yellow;
+}
+
+#Low
+{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+border: 1px solid yellow;
+}  
+
+#LowLeft
+{
+display: flex;
+justify-content: flex-start
+border: 1px solid yellow;
+}
+
+#LowRight
+{
+display: flex;
+justify-content: flex-end;
+border: 1px solid yellow;*	
+}
+
+.MenuLowLeft
+{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.MenuLowRight
+{
+	display: flex;
+	justify-content: flex-end;
+}
